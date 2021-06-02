@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="2.jpg" type="image/png" sizes="100x100" >
+    <title>Dave|Biography</title>
+    
+</head>
+
+
+<body>
+   
+
+    <center>
+        <h1>---내 전기---</h1>
+
+        <img style="height: 12%; width: 25%;" id="profilePic" src="1.jpg"><br>
+        <p style="display: none;" id="profileDescribe"> This is my Profile Picture.</p>
+
+        
+        
+
+
+        <p style="margin-right:100px; margin-left: 100px; ">     By the way, I am Dave Lyndrex Millan, 19 years of existence.
+            All the way from Dalaguete, province of Cebu.
+            I am a Passerelles Numeriques scholar and currently studying at University of San Carlos Talamban Campus.
+            I also currently living in Nasipit Talamban, Cebu City. I love sports specially volleyball, basketball, and
+            badminton.
+            I also oftenly play esports/games either mobile games like mobile legends or computer games like DOTA and
+            Crossfire. I love pets, I have fishes, hamsters, cat, and birds there in my home town. I am also a nature
+            lover, I value the beauty of nature. And lastly, I am always believe in the essence of the Law of
+            Attraction.
+            SKL!</p>
+
+
+            <div class="onmouseClick">
+                <img style="width: 25%; height: 22%;" class="socialMedia"  data-link="https://www.linkedin.com/in/guian-carlo-8042081a2/" src="guian.png">
+               
+                <p>One of my friend says that I am a sporty person.</p> 
+                <h3>-Guian victor Amancio</h3>
+                
+                <p>Doubleclick the photo to see more info about him.</p>
+            </div>
+            <div class="onmouseClick">
+                <img style="width: 25%; height: 22%;"  class="socialMedia"  data-link = "https://www.linkedin.com/in/jepoy-obiedo-7535481a1/"src="justine.jpg">
+              
+                <p>Another friend of mine says that I am a shy type.</p> 
+                <h3>-Justine Ambrad</h3>
+                
+                <p>Doubleclick the photo to see more info about him.</p>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Click here to resize the pictures</button>
+                  </div>
+            </div>
+            
+
+
+        <script>
+
+            $("#profilePic").mouseenter(function () {
+                $("#profileDescribe").fadeToggle();
+
+            })
+            $("#profilePic").mouseleave(function () {
+                $("#profileDescribe").fadeToggle();
+
+            })
+            $("#profilePic").click(function () {
+                $(".onmouseClick").toggle();
+            })
+            $(".socialMedia").dblclick(function () {
+                window.location.href = $(this).data("link");
+            })
+            $(".btn").click(function () {
+                $(".socialMedia").animate({
+                    height: '10%',
+                    width: '10%'
+
+                })
+            })
+        </script>
+
+
+    </center>
+
+</body>
+
+</html>

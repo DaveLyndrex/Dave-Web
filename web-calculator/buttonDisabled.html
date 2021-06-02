@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button|Disabled</title>
+</head>
+<body>
+    <td>
+        <button style="padding: 10px; width:10%; " type="button" name="digit" value="1" value2="disabled">
+          hello
+        </button>
+      </td>
+      
+      <button style="padding:10px; width:10%;" type="button" name="equals" value="=">
+        ⮪ Disabled
+      </button>
+      <script>
+          document.getElementsByName("equals")[0].addEventListener("click", function(){
+  document.getElementsByName("digit")[0].disabled = true;
+});
+      </script>
+</body>
+</html>

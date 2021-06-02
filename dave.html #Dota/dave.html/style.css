@@ -1,0 +1,197 @@
+body{
+    background-image: url(7.jpg); 
+    margin:0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    line-height: 1.7em;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navigation-bar{
+    height: 60px;
+    background-image: url(13.png);
+    color: floralwhite;
+    
+}
+
+.title{
+    float: left;
+    font-size: 25px;
+    margin-top: -18px;
+    margin-left: 70px;
+    width: 17%;
+    color:white;
+}
+.nav{
+    -webkit-writing-mode: horizontal-tb;
+      text-rendering: auto;  
+    -webkit-appearance: searchfield;
+    box-sizing: border-box;
+    padding: 1px;
+    box-sizing: 200px;
+
+}
+
+.menu{
+    float: right;
+}
+
+.menu li{
+    display: inline;
+    margin-right: 15px;
+    font-size: 20px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+header{
+    background-image: url("loud.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+
+.logo{
+    margin-left: 222px;
+    margin-right: 80px;
+    margin-top: -50px;
+    width: 450px;
+height: 320px;
+}
+.logo2{
+    margin-left:83px;
+    margin-right: 50px;
+    margin-top: -300px;
+    width: 10px;
+    height: 50px;
+}
+
+.logo3{
+    margin-left: 68%;
+    margin-right: 40px;
+    margin-top: 80px;
+    width: -110px;
+    height: 300px;
+}
+.about{
+   font-size: 31px;
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+    margin-left: 380px;
+}
+.about1{
+    font-size: 31px;
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+    margin-left: 135px;
+}
+
+.leftImage{
+    float: left;
+    height: 420px;
+    margin-right: 50px;
+    margin-left: 20px;
+    width: 620px;
+}
+
+.rightText{
+    color: wheat;
+    float: right;
+    width: 48%;
+    height: 300px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.complex{
+    text-indent: 60px;
+    text-align: left;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-right: 10%;
+}
+
+.leftText {
+    color: wheat;
+    float: left;
+    width: 48%;
+    height: 100px;
+    margin-right: 150px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.text{
+    color:red;
+
+}
+.rightImage {
+    float: left;
+   
+}
+.logo4 img{
+    position: absolute;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+
+.logo11 img{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 82px;
+}
+
+.logo12 img{
+    position: absolute;
+    margin-top: 40px;
+    margin-right: 2px;
+    margin-left: 68%;
+}
+about{
+    font-size: 31px;
+     text-indent: 50px;
+     text-align: justify;
+     line-height: 30px;
+     color: white;
+     margin-left: 400px;
+    
+ }
+ 
+ .logo13 img{
+     position: absolute;
+     margin-top: 500px;
+     margin-left: 25px;
+     
+ }
+ .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+ 

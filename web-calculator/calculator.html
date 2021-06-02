@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="calculator.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator|Javascript</title>
+</head>
+<body>
+   
+    <button class="btn" onclick="calculator()" > <h2 >Simple Calculator</h2> Click Here! </button>
+<script>
+function calculator(){
+    var input1 = prompt("Input first number: ");
+    var input2 = prompt("Input second number: ");
+    var operator = prompt("Pick operator: + , - , * , / ");
+
+    switch (operator){
+        case "+":
+            res =Number(input1) + Number(input2);
+        break;
+        case "-":
+            res = Number(input1) - Number(input2);
+        break;
+        case "*": 
+            res = Number(input1) * Number(input2);
+        break;
+        case "/":
+            res = Number(input1) / Number(input2);
+        break;
+        default:
+            alert("Please enter a valid number!");
+        
+
+    }  
+    document.write(`${input1} ${operator} ${input2}= ${res}`);    
+}
+</script>
+
+    
+</body>
+</html>

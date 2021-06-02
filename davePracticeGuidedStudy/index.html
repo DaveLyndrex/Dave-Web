@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Document</title>
+<style>
+    body{
+        background-color: white;
+    }
+    h1{
+        margin-top: 600px;
+        color: white;   
+    }
+    .red{
+        color: red;
+    }
+    .green{
+        color:green;
+    }
+</style>
+
+</head>
+<body>
+    <center>
+    <!-- <h1>↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑</h1> -->
+    <h2 class="header" >heyooo woyd</h2>
+
+    <!-- <select name="select1" id="select1">
+        <option value="option 1">option 1</option>
+        <option value="option 2">option 2</option>
+        <option value="option 3">option 3</option>
+        <option value="option 4">option 4</option>
+        <option value="option 5">option 5</option>
+    </select> -->
+<!-- 
+    <select name="select2" id="select2"> -->
+
+    <button class="btn2">click me</button>
+    <button class="btn1">click me</button>
+
+    </select>
+
+  <!-- <button id="btn-show" class="btn  btn-outline-primary"> Show Me! </button>
+  <button id="btn-hide" class="btn btn-outline-danger"> Hide Me! </button>
+  <button id="btn-toggle" class="btn btn-outline-warning"> Toggle Me! </button> -->
+  <!-- <button id="btn-animate"> click</button> -->
+
+<!-- <input type="text" id="username">
+<button type="submit" id="btn-set-get" class="btn btn-outline-primary">Get and Set</button> -->
+</center>
+
+    <script>
+$(function(){
+
+
+// $('#btn-show').on('click',function(){
+//     $('h1').slideDown();
+// });
+
+// $('#btn-hide').on('click', function(){
+//     $('h1').slideUp();
+// });
+// $('#btn-toggle').on('click', function(){
+//     $('h1').slideToggle();
+
+// });
+
+// $('#btn-animate').on('click', function(){
+//     $('.header').animate({fontSize:'60px', letterSpacing:'40px',opacity:''})
+// })
+
+
+//get
+// var text = $('.header').text();
+// console.log(text);
+// //set
+// $('#btn-set-get').on('click', function(){
+//     $('#username').val(text);
+// })
+
+// $('#select1').on('change', function(){
+//     $('.header').text($('#select1').val());
+//     if ($('#select1').val() == "option 2"){
+//         $('#select2').html(`
+//         <option value="option 1">option 1</option>
+//         <option value="option 2">option 2</option>`)
+//     }
+// })
+
+
+// $('.btn').on('click', function(){
+//     $('.header').css("color","red").animate({
+//         fontSize: "60px"
+//     }
+//     );
+// })
+
+
+$('.btn2').on('click',function(){
+    $('.header').addClass('green');
+})
+
+
+$('.btn1').on('click',function(){
+    $('.header').removeClass('green');
+})
+
+})
+
+    </script>
+
+
+</body>
+</html>

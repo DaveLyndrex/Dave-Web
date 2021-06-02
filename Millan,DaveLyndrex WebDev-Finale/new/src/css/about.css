@@ -1,0 +1,167 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("../images/bg6.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+
+  .nav-item{
+      font-size: 20px;
+      padding: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+
+  }
+
+  .col-md-8{
+      margin-top: 20px;
+      color: white;
+      margin-top: 100px;
+      
+
+        }
+
+.row .view img:hover{
+  transform: scale(1.01)
+
+} 
+
+
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  
+  
+}
+section.section:last-child {
+  margin-bottom: 0;
+}
+section.section h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.section p {
+  margin-bottom: 40px;
+  font-size:1.20em;
+  line-height:2.5em;
+  font-weight: 300;
+  color: white;
+}
+section.section p:last-child {
+  margin-bottom: 0;
+}
+section.section.content {
+  background-color: white;
+  padding: 40px 0;
+}
+section.section.parallax {
+  height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.section.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  
+}
+section.section.parallax-1 {
+  background-image: url("../images/bear.jpg");
+  
+ 
+}
+section.section.parallax-2 {
+  background-image: url("../images/wolves1.jpg");
+ 
+}
+section.section.parallax-3 {
+  background-image: url("../images/tig.jpg");
+
+}
+ all and (min-width: 600px) {
+  section.section h2 {
+    font-size: 42px;
+  }
+  section.section p {
+    font-size: 20px;
+  }
+  section.section.parallax h1 {
+    font-size: 96px;
+  }
+}
+ all and (min-width: 960px) {
+  section.section.parallax h1 {
+    font-size: 160px;
+  }
+}
+.text2{
+  color:white;
+  
+}
+.text1{
+  color: black;
+}
+
+.container p{
+  color: black;
+}
+
+
+#backtop {
+  position: fixed;
+  left:auto;right: 20px;top:auto;bottom: 20px;
+  outline: none;
+  overflow:hidden;
+  color:#fff;
+  text-align:center;
+  background-color:#27CFC3;
+  height:40px;
+  width:40px;
+  line-height:40px;
+  font-size:14px;
+  border-radius:2px;
+  cursor:pointer;
+  transition:all 0.3s linear;
+  z-index:999999;
+
+  opacity:1;
+  display:none;
+}
+#backtop:hover {
+  background-color:orange;
+}
+#backtop.mcOut {
+  opacity:0;
+}
+

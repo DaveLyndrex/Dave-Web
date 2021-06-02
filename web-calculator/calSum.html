@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="calSum.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum|Calculation</title>
+</head>
+
+<body>
+    <button class="btn" onclick="calSum()">
+        <h2>Calculating Sum</h2> click here!
+    </button>
+
+    <script>
+        function calSum() {
+            var input1, input2;
+
+            var input1 = prompt("Input first number: ");
+            var input2 = prompt("Input second number: ");
+            res = Number(input1) + Number (input2);
+
+            if (parseInt(input1) != parseInt(input2)) {
+                document.write(`${input1} + ${input2} = ${res}`);
+            }else if (parseInt(input1) == parseInt(input2)){
+                document.write (res*3);
+            }else{
+                alert("Please input a valid number!");
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>

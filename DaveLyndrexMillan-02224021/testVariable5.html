@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test|Variable5</title>
+</head>
+<body>
+    
+    <p id="idsection"></p>
+    <script>
+        let quote = 'I do not like green eggs and ham. I do not like them, Sam-I-Am.';
+        let substring = 'green eggs and ham';
+        // Add your code here
+       // let quoteLength =console.log(quote);
+
+        //quote = quote.indexOf(substring);
+      // let index = console.log(quote);
+
+       var revisedQuote = quote.slice(0,34);
+       console.log(revisedQuote);
+        
+        // Don't edit the code below here!
+        section.innerHTML = ' ';
+        let para1 = document.createElement('p');
+        para1.textContent = `The quote is ${ quoteLength } characters long.`;
+        let para2 = document.createElement('p');
+        para2.textContent = revisedQuote;
+        section.appendChild(para1);
+        section.appendChild(para2);
+    </script>
+</body>
+</html>

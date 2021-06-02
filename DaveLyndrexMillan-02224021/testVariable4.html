@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test|Variable4</title>
+</head>
+<body>
+    <p id="section"></p>
+    
+    <script>
+
+        // Final result should be 10.42
+        // Add/update your code here
+        let result = 7 + 13 / 9 + 7;
+        let result2 = 100 / 2 * 6;
+        let resultBack = result * result2;
+        let finalResult = resultBack.toFixed(2);
+        let finalNumber = parseInt(finalResult);
+
+
+        // Don't edit the code below here!
+        section.innerHTML = ' ';
+        let para1 = document.createElement('p');
+        para1.textContent = `Your finalResult is ${ finalResult }`;
+        let para2 = document.createElement('p');
+        let finalNumberCheck = isNaN(finalNumber) === false ? 'finalNumber is a number type. Well done!' : `Ooops! finalNumber is not a number.`;
+        para2.textContent = finalNumberCheck;
+        section.appendChild(para1);
+        section.appendChild(para2);
+    </script>
+</body>
+</html>

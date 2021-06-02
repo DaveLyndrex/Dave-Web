@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="fCelsius.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahrenheit|Celsius</title>
+</head>
+
+<body>
+    <p>Fahrenheit:</p>
+    <input type="text" id="fahrenheit" />
+    <button onclick="fCelsius()">Convert to Celsius</button>
+
+    <h4>Output: <span id="output"> </span> </h4>
+
+    <script>
+        function fCelsius() {
+            var fahrenheit = document.getElementById("fahrenheit").value;
+            var celsius;
+            if (fahrenheit != '') {
+                celsius = (fahrenheit - 32) * 5 / 9;
+                document.getElementById("output").innerHTML = celsius;
+            } else {
+                document.getElementById("output").innerHTML = "Please enter a value!";
+            }
+        }
+    </script>
+</body>
+
+</html>

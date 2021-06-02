@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test|Variable6</title>
+</head>
+<body>
+    <p id="section"></p>
+    <script>
+        let quote = 'I dO nOT lIke gREen eGgS anD HAM';
+        // Add your code here
+        let lower= quote.toLowerCase();
+        let first = lower[0];
+        let cap = lower.replace(first,first.toUpperCase());
+        let fixedQuote = cap.replace('green eggs and ham','Lumpia Taugi');
+        let finalQuote = fixedQuote + '.';
+
+        // Don't edit the code below here!
+        section.innerHTML = ' ';
+        let para1 = document.createElement('p');
+        para1.textContent = fixedQuote;
+        let para2 = document.createElement('p');
+        para2.textContent = finalQuote;
+        section.appendChild(para1);
+        section.appendChild(para2);
+    </script>
+</body>
+</html>

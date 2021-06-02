@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown|List</title>
+</head>
+
+<body>
+  <h2>There are 7 days in a week.</h2>
+  <form>
+    <label for="d1">Days in a Week: </label>
+    <select id="d1">
+      <option value="1">Monday</option>
+      <option value="1">Tuesday</option>
+      <option value="1">Wednesday</option>
+      <option value="1">Thursday</option>
+      <option value="1">Friday</option>
+      <option value="1">Saturday</option>
+      <option value="1">Sunday</option>
+    </select>
+    <input type="button" onclick="countOptions()" value="Count options of dropdown">
+  </form>
+  <script>
+    function countOptions() {
+
+
+      for (i = 0; i; i++) {
+
+      }
+      alert("days in a Week: " + document.getElementById("d1").textContent + '\n' + "There are " + document.getElementById("d1").length + " days in a week.");
+    }
+  </script>
+</body>
+
+</html>

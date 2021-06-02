@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button|FizzBuzz</title>
+</head>
+
+<body>
+    <h3 style="text-align: center;">Fizz Buzz Button</h3>
+
+    <center> <button type="button" onClick="clickCount++; updateClickCount();" id="clickCount">0</button>
+        <button id="neutral">Neutral</button>
+    </center>
+
+    <script type="text/javascript">
+        var clickCount = 0;
+        function updateClickCount() {
+            document.getElementById("clickCount").innerHTML = clickCount;
+
+            if (clickCount % 3 == 0 && clickCount % 5 == 0) {
+                document.getElementById("neutral").innerHTML = ("Fizz Buzz");
+                console.log(document.getElementById('neutral'));
+                neutral.style.color='green';
+            }
+            else if (clickCount % 3 == 0) {
+                document.getElementById("neutral").innerHTML = ("Fizz");
+                console.log(document.getElementById('neutral'));
+                neutral.style.color= 'red';
+            }
+            else if (clickCount % 5 == 0) {
+                document.getElementById("neutral").innerHTML = ("Buzz");
+                console.log(document.getElementById('neutral'));
+                neutral.style.color='blue';
+            }else {
+                document.getElementById("neutral").innerHTML = ("neutral");
+                console.log(document.getElementById('neutral'));
+                neutral.style.color = 'black';
+                
+            }
+            
+        }
+      
+
+    </script>
+
+
+
+    </script>
+</body>
+
+</html>
